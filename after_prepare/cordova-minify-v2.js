@@ -208,7 +208,7 @@ function checkIfFinished() {
 
 switch (platform) {
     case 'android':
-        platformPath = path.join(platformPath, platform, "assets", "www");
+        platformPath = path.join(platformPath, platform, "app", "src", "main", "assets", "www");
         break;
     case 'ios':
         platformPath = path.join(platformPath, platform, "www");
